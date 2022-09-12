@@ -35,14 +35,15 @@ const Auth = {
   * @param {{user?:{email?:string,password?:string},device?:{id?:`${number}`}}} auth 
   */
  delete(auth){
-  const a = this.getAll();
+  let a = this.getAll();
   a = a?.filter((_)=>!(
    (typeof auth?.user?.email == 'undefined' || `${_?.user?.email}` === `${auth?.user?.email}`) &&
    (typeof auth?.user?.password == 'undefined' || `${_?.user?.password}` === `${auth?.user?.password}`) &&
    (typeof auth?.device?.id == 'undefined' || `${_?.device?.id}` === `${auth?.device?.id}`)
-  ))
+  ));
+		this.setAll(a);
  }
 }
-const Config = {
+export const Config = {
  auth:Auth,
-}
+};

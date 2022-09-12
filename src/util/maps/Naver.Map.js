@@ -1,4 +1,4 @@
-const NaverMap = {
+export const NaverMap = {
 	/**
 		* 
 		* @param {string} nmap_url 
@@ -7,7 +7,7 @@ const NaverMap = {
 		*/
 	open:(nmap_url,http_url) => {
 		let clickedAt = +new Date();
-		location.href = nmap_url;
+		window.location.href = nmap_url;
 		setTimeout(function() {
 			if (+new Date() - clickedAt < 2000) {
 				window.open(http_url); // Opens new Window => http_url
@@ -29,3 +29,4 @@ const NaverMap = {
 		return [nmap_url,http_url];
 	}
 }
+
