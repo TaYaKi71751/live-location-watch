@@ -1,0 +1,17 @@
+.Device {
+	display: inline-block;
+	text-align: center;
+	overflow: scroll;
+	height: min-content;
+	width: fit-content;
+	white-space: nowrap;
+	padding: .2pc;
+}
+
+.DeviceID {
+	display: block;
+	padding: .5pc 1.5pc;
+	font-size: 1pc;
+	border-radius: 9999px;
+	background: wheat;
+}
