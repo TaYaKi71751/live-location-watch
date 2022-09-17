@@ -1,0 +1,11 @@
+.Add {
+	display: inline-block;
+	text-align: center;
+}
+.Email,.Password,.ID {
+	border-radius: 9999px;
+	padding: .2pc;
+}
+.Button {
+	border-radius: 9999px;
+}

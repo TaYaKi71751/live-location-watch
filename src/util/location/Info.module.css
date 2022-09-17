@@ -1,0 +1,11 @@
+.Info {
+	display: block;
+}
+.Latitude,.Longitude,.created_at {
+	display: block;
+	padding: .5pc 1.5pc;
+	border-radius: 9999px;
+}
+.Latitude { background: aquamarine; }
+.Longitude { background: cornsilk; }
+.created_at { background: cornflowerblue; }

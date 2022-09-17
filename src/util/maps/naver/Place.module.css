@@ -1,0 +1,7 @@
+.Place {
+	display: inline-block;
+	text-align: center;
+	border-radius: 9999px;
+	padding: .2pc;
+	background: violet;
+}

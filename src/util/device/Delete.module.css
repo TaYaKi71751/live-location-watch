@@ -1,0 +1,8 @@
+.Delete {
+	display: inline-block;
+	text-align: center;
+}
+.Button {
+	border-radius: 9999px;
+	padding: .2pc;
+}

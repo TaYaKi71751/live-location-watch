@@ -1,4 +1,6 @@
 .Devices {
+	position: fixed;
+	top: 0;
 	overflow-x: scroll;
 	width: 100vw;
 	white-space: nowrap;

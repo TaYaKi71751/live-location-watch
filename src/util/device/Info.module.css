@@ -1,4 +1,4 @@
-.Device {
+.Info {
 	display: inline-block;
 	text-align: center;
 	overflow: scroll;
@@ -8,7 +8,7 @@
 	padding: .2pc;
 }
 
-.DeviceID {
+.ID {
 	display: block;
 	padding: .5pc 1.5pc;
 	font-size: 1pc;
